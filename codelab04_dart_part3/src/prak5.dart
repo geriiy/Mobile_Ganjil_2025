@@ -10,4 +10,11 @@ void main() {
 
   var hasilTukar = tukar(pasangan); // panggil fungsi tukar
   print('Sesudah tukar: $hasilTukar');
+
+  // Deklarasi dan inisialisasi record bertipe (String, int)
+  (String, int) mahasiswa = ('Gheriya', 2341720109);
+
+  print(mahasiswa); // Cetak seluruh record
+  print(mahasiswa.$1); // Akses nama (posisi pertama)
+  print(mahasiswa.$2); // Akses NIM (posisi kedua)
 }
