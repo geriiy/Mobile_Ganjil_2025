@@ -17,4 +17,11 @@ void main() {
   print(mahasiswa); // Cetak seluruh record
   print(mahasiswa.$1); // Akses nama (posisi pertama)
   print(mahasiswa.$2); // Akses NIM (posisi kedua)
+
+  var mahasiswa2 = ('Gheriya Rahima Jauhar', a: 2341720109, b: true, 'last');
+
+  print(mahasiswa2.$1);
+  print(mahasiswa2.a);
+  print(mahasiswa2.b);
+  print(mahasiswa2.$2);
 }
