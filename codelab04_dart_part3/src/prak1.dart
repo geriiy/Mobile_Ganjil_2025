@@ -1,14 +1,8 @@
 void main() {
-  var list = [1, 2, 3];
+  final List<String?> data = List.filled(5, null); // List dengan 5 elemen null
 
-  assert(list.length == 3);
-  assert(list[1] == 2);
+  data[1] = 'Gheriya';
+  data[2] = '22050123';
 
-  print(list.length);
-  print(list[1]);
-
-  list[1] = 1;
-  assert(list[1] == 1);
-
-  print(list[1]);
+  print(data);
 }
