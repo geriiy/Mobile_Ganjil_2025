@@ -17,4 +17,8 @@ void main() {
   var nimList = ['2', '3', '4', '1', '7', '2', '0', '1', '0', '9'];
   var fullList = [0, ...nimList];
   print(fullList);
+
+  var promoActive = true;
+  var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+  print(nav);
 }
